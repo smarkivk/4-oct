@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+  } 
+}
+Here's what the program does step by step:
+
+It imports the ArrayList class from the java.util package.
+It defines a class named "Main."
+Inside the main method:
+It creates an ArrayList named "cars" that can hold strings (String).
+It uses the add method to add four car brand names to the "cars" ArrayList.
+It prints the contents of the "cars" ArrayList using System.out.println(cars).
+When you run this program, it will display the following output:
+
+csharp
+Copy code
+[Volvo, BMW, Ford, Mazda]
+This output shows that the car brand names have been successfully added to the ArrayList, and the ArrayList's contents are printed inside square brackets.
